@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="183px" viewBox="0 0 369 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Untitled</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.121899 0 0 0 0 0.347968 0 0 0 0 0.082901 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Group-707">
+            <g transform="translate(1.000000, 1.003000)">
+                <polyline id="Path_905" stroke="#EEEEEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0 0 0 180.139 360.848 180.139 360.848 135.7"></polyline>
+                <circle id="Ellipse_36" fill="#FFFFFF" fill-rule="nonzero" cx="361.5" cy="139.068" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

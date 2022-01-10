@@ -1,0 +1,165 @@
+* {
+    box-sizing: inherit;
+    /*border: 1px solid red;*/
+    transition: 0.5s;
+}
+
+body{
+    background-color: #ffffff !important;
+}
+@media only screen and (max-width: 768px) {
+    #buttons {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #000 100%);
+        padding: 40px 15px 15px 15px;
+        overflow: hidden;
+    }
+}
+.buttons {
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    #buttons a:nth-child(1) {
+        float: left;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 50px;
+        background: #E02020;
+        border-radius: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #buttons a {
+        color: #fff;
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
+a, a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+@media only screen and (max-width: 768px) {
+    #buttons a:nth-child(1) {
+        float: left;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 50px;
+        background: #E02020;
+        border-radius: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #buttons a {
+        color: #fff;
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
+a, a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    #buttons a:nth-child(2) {
+        float: left;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50px;
+        background: #179D0D;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #buttons a {
+        color: #fff;
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
+.fab {
+    font-family: "Font Awesome 5 Brands", sans-serif;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+/*mesaj gönder*/
+@media only screen and (max-width: 768px) {
+    #buttons a:nth-child(3) {
+        text-align: center;
+        float: right;
+        color: #fff;
+        height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 30px;
+        background: #213C75;
+        line-height: 50px;
+        padding: 0 25px;
+    ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #buttons a:last-child {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #buttons a {
+        color: #fff;
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/*mesaj gönder son*/
